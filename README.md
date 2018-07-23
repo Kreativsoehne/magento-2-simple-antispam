@@ -2,7 +2,7 @@
 A customizeable and simple Magento 2 extension for blocking (russian) spam bots creating new customer accounts.
 
 ## installation
-    1. $ composer require kus/magento2-simple-antispam
+    1. $ composer require kreativsoehne/magento2-simple-antispam
     2. $ ./bin/magento module:enable KuS_Antispam
     3. $ ./bin/magento setup:upgrade
     4. Profit.

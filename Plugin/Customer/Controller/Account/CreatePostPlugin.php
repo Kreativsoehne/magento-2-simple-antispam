@@ -32,7 +32,7 @@ class CreatePostPlugin
         foreach ($spamContent as $entry) {
             foreach ($formFieldsToCheck as $field) {
                 if (strpos($data[$field], $entry)) {
-                    $spam = true;
+                    $spam = true;				
                 }
             }
         }
