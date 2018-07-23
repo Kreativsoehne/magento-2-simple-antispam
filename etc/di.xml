@@ -1,0 +1,5 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Customer\Controller\Account\CreatePost">
+        <plugin name="KuS_Antispam" type="KuS\Antispam\Plugin\Customer\Controller\Account\CreatePostPlugin" sortOrder="10" disabled="false" />
+    </type>
+</config>
