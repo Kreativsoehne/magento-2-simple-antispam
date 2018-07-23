@@ -5,7 +5,8 @@ A customizeable and simple Magento 2 extension for blocking (russian) spam bots 
     1. $ composer require kreativsoehne/magento2-simple-antispam
     2. $ ./bin/magento module:enable KuS_Antispam
     3. $ ./bin/magento setup:upgrade
-    4. Profit.
+	4. $ ./bin/magento setup:di:compile
+    5. Profit.
 
 ## usage
 This extension is very simple. By default it won't perform a registration request when some registration fields contain special strings on a blacklist:
